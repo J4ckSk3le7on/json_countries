@@ -1,0 +1,13 @@
+beneficiary_name - 'Escribe un nombre valido'
+beneficiary_last_name - 'Escribe un apellido valido'
+beneficiary_postal_code - 'Escribe un codigo postal valido'
+beneficiary_email - 'Escribe un email valido'
+beneficiary_phone - 'Escribe un numero de celular valido'
+bank_code - 'Escribe un codigo bancario valido'
+account_number - 'Escribe un numero de cuenta valido'
+// branch_number - ''
+
+ein - 'Debe ser un numero de 9 caracteres'
+security_number - 'Debe ser un numero de 9 caracteres'
+panama_cedula - 'Debe ser una identificacion alfa numerica entre 5 y 22 caracteres'
+panama_ruc - 'Debe ser una identificacacion que contenga numeros y letras entre 5 y 22 caracteres'

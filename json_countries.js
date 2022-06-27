@@ -114,12 +114,14 @@
 					{
 						"label":"Cedula",
 						"regex":"^[A-Za-z0-9]{5,22}$",
-						"value":"Cedula"
+						"value":"Cedula",
+						"helperText": "panama_cedula"
 					},
 					{
 						"label":"RUC",
 						"regex":"^[A-Za-z0-9]{5,22}$",
-						"value":"RUC"
+						"value":"RUC",
+						"helperText": 'panama_ruc'
 					},
 					{
 						"label":"PASS",
