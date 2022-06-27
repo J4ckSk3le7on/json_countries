@@ -1,5 +1,96 @@
 [
 	{
+		"countryName":"United States",
+		"countryCode":"US",
+		"requiredFields":[
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"identifier":"beneficiary_name"
+			},
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"identifier":"beneficiary_last_name"
+			},
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"identifier":"beneficiary_document_id"
+			},
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"options":[
+					{
+						"label":"EIN",
+						"regex":"^[0-9]{9}$",
+						"value":"EIN"
+					},
+					{
+						"label":"Security Number",
+						"regex":"^[0-9]{9}$",
+						"value":"Security Number"
+					}
+				],
+				"identifier":"beneficiary_document_type"
+			},
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"identifier":"beneficiary_address"
+			},
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"identifier":"beneficiary_city"
+			},
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"identifier":"beneficiary_postal_code"
+			},
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"identifier":"beneficiary_state"
+			},
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"identifier":"beneficiary_email"
+			},
+			{
+				"regex":"^.{3,40}$",
+				"active":true,
+				"identifier":"beneficiary_phone"
+			},
+			{
+				"regex":"^[0-9]{1,4}$",
+				"active":false,
+				"identifier":"bank_code"
+			},
+			{
+				"regex":"[0-9]",
+				"active":false,
+				"identifier":"account_number"
+			},
+			{
+				"regex":"^[a-zA-Z]{1}$",
+				"active":false,
+				"options":[
+
+				],
+				"identifier":"account_type"
+			},
+			{
+				"regex":"^[a-zA-Z0-9]{4,5}$",
+				"active":false,
+				"identifier":"branch_number"
+			}
+		]
+	},
+	{
 		"countryName":"Panamá",
 		"countryCode":"PA",
 		"requiredFields":[
@@ -711,7 +802,7 @@
 		]
 	},
 	{
-		"countryName":"Mexico",
+		"countryName":"México",
 		"countryCode":"MX",
 		"requiredFields":[
 			{
