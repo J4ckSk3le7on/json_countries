@@ -167,7 +167,7 @@
 				"identifier":"bank_code"
 			},
 			{
-				"regex":"^[0-9]{1,45}$",
+				"regex":"^[A-Za-z0-9]{1,45}$",
 				"active":true,
 				"identifier":"account_number"
 			},
@@ -373,7 +373,7 @@
 				"identifier":"bank_code"
 			},
 			{
-				"regex":"[0-9]",
+				"regex":"^.{3,40}$",
 				"active":true,
 				"identifier":"account_number"
 			},
@@ -1049,7 +1049,7 @@
 				"identifier":"bank_code"
 			},
 			{
-				"regex":"^[a-zA-Z0-9]{22}$",
+				"regex":"^[a-zA-Z0-9]{9,22}$",
 				"active":true,
 				"identifier":"account_number"
 			},
@@ -1859,7 +1859,7 @@
 				"identifier":"bank_code"
 			},
 			{
-				"regex":"[0-9]",
+				"regex":"^[0-9]{20}$",
 				"active":true,
 				"identifier":"account_number"
 			},
@@ -2532,7 +2532,7 @@
 				"identifier":"bank_code"
 			},
 			{
-				"regex":"[0-9]",
+				"regex":"^[0-9]{7,14}$",
 				"active":true,
 				"identifier":"account_number"
 			},
